@@ -1,0 +1,97 @@
+.body-bg{
+	background-color: #1a0033;
+}
+.nft-btn{
+	background-color: #420080;
+}
+.active-nft{
+	color: grey;
+	/* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7); Adds a shadow */
+	
+}
+.hero-text{
+	font-size: 65px;
+	color: white;
+	font-family: Segoe UI Black;
+}
+.sub-hero-text{
+	font-size: 60px;
+	color: white;
+	font-family: Segoe UI Black;
+
+}
+ scope{
+	color: #e6f2ff;
+}
+.row p{
+	font-size: 16px;
+	color: #bfbfbf;
+}
+.buy-btn{
+	background-color: #420080;
+}
+.sell-btn{
+	background-color: none;
+	border: 1px solid aqua;
+}
+.card-bg{
+	background: rgba(255, 255, 255, 0.3); /* Use rgba to set opacity */
+	padding: 20px; /* Adjust padding for spacing */
+	border-radius: 15px; /* Rounded corners for the glass effect */
+	border: 1px solid rgba(255, 255, 255, 0.2); /* Add a subtle border */
+	backdrop-filter: blur(10px); /* Apply a blur for the frosted glass effect*/
+
+}
+.card-bg img{
+	width: 150px !important ;
+}
+.testi-text{
+	font-size: 45px;
+	font-family: Segoe UI Black;
+	font-weight: 50px;
+}
+.carousel-inner {
+    transition: transform 0.8s ease-in-out; /* Adjust the transition duration as needed */
+}
+
+.foot-space{
+	justify-content: space-between;
+}
+footer ul li a{
+	text-decoration: none;
+	color: #bfbfbf;
+}
+input{
+	background-color: #aa80ff;
+
+}
+input::placeholder{
+	color: white;
+}
+.btn-waves {
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s, opacity 0.3s, box-shadow 0.3s;
+  }
+
+  /* Pseudo-element for creating the ripple effect */
+  .btn-waves::after {
+    content: '';
+    position: absolute;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.9); /* Adjust the color and opacity */
+    transform: scale(0);
+    opacity: 0;
+    transition: transform 0.3s, opacity 0.3s;
+  }
+
+  /* Hover effect */
+  .btn-waves:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.9); /* Add a subtle shadow */
+  }
+
+  .btn-waves:hover::after {
+    transform: scale(2);
+    opacity: 0;
+  }
