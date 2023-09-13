@@ -1,0 +1,199 @@
+body form{
+	margin-left: 60px;
+}
+html{
+	scroll-behavior: smooth;
+}
+.navbar{
+	background-color: #FE6602;
+
+}
+.navbar-nav{
+	margin-left:400px;
+	padding-left: 10px;
+}
+.navbar-nav a{
+	margin-left: 30px;
+	font-size: 17px;
+}
+
+.Opac img{
+	opacity: 0.7;
+
+}
+
+.Opac h1{
+		
+
+	font-size: 90px;
+	color: white;
+	font-weight: bold;
+
+	padding-top: 140px;
+
+}
+.Opac p{
+	
+		font-size: 17px;
+
+	color: white;
+}
+.Opac{
+
+}
+body .ba-im{
+	background-image: url('assets/Images/d4c4f62b6eccb6741711cb3fc7bc60d9.jpg');
+	height: 600px;
+}
+.modus{
+	color: #FE6602;
+	font-family: Century Gothic;
+}
+.top-btn{
+	border: none;
+	
+	top: 440px;
+	left: 600px;
+	
+	background-color: #FE6602;
+}
+
+.container hr{
+	background-color: #FE6602;
+	width: 5%;
+	height: 3px;
+}
+.service1{
+	background-image: url('assets/Images/2484218.jpg');
+padding-top: 10px;
+padding-bottom: 40px;
+
+}
+
+.setion-header{
+	margin-top: 150px;
+
+}
+.text-body h3{
+	color: #A5A6A8;
+	font-size: 18px;
+}
+.text-body p{
+color: #A5A6A8;	
+}
+.service{
+	margin-top: 70px;
+	color: white;
+}
+.sect-body i{
+	font-size: 35px;
+	color: #E75926;
+
+}
+.ipsum{
+	border: box;
+}
+.ipsum:hover{
+	opacity: 0.6;
+color: black;
+
+}
+.portfolio{
+	margin-top: 100px;
+}
+.grey-space{
+	background-color: #E6E6E6;
+}
+
+.grey-space .container{
+	margin-top: 190px;
+	padding-top: 120px;
+
+}
+.grey-space .container  article{
+	margin-bottom: 100px;
+}
+.left-space{
+	
+	padding-bottom: 150px;
+}
+.left-space div{
+	margin-left: 60px;
+}
+.left-space div .text{
+	margin-left: 0px;
+}
+.left-space div .text p{
+	color: #A5A6A8;
+}
+.top-space{
+	margin-top: 130px;
+}
+
+.top-space i{
+	 margin-top: 40px;
+	 color: #A5A6A8;
+	 font-size: 28px;
+}
+.top-space .high hr{
+	width: 50%;
+	height: 0px;
+	background-color: #A5A6A8;
+
+}
+.contact{
+	margin-top: 150px;
+}
+.button span{
+	cursor:  pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+}
+.button span:after{
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
+}
+.button:hover span{
+	padding-right: 25px;
+}
+.button:hover span:after{
+	opacity: 1;
+	right: 0;
+}
+
+
+/*ABOUT Us*/
+
+	.aboutus h1{
+	
+		font-size: 40px;
+		font-family: Bookman Old Style;
+	}
+
+.footer{
+	background-color: #F6F6F8;
+
+}
+.left-align{
+	margin-left: 250px;
+}
+span{
+	color: #F99F4E;
+}
+
+
+
+
+
+<form class="form-inline my-2 my-lg-0 row">
+	<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Sarch">
+   	<button class="btn btn-outline-info my-2 my-sm-0" type="submit">Search
+		
+	</button>
+	
+</form>
